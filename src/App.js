@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
-import Products from './Component/Products/Products';
+import React, { useState, useEffect } from 'react';
 
-class App extends Component {
-    render() {
+const App = () => {
+
         return (
             <div>
-                <Products></Products>
+                <h1>Hello World</h1>
             </div>
         )
-    }
 }
 
 export default App
