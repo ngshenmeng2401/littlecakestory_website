@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 import Layout from './Components/Layout/Layout';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './Components/Views/Home';
-import Product from './Components/Views/Product';
-import Cart from './Components/Views/Cart';
-import Login from './Components/Views/Login';
-import Register from './Components/Views/Register';
-import NotMatch from './Components/NotMatch';
-import AboutUs from './Components/Views/AboutUs'
+import Home from './Views/Home/Home';
+import Product from './Views/Product/Product';
+import Cart from './Views/Cart/Cart';
+import Login from './Views/Login/Login';
+import Register from './Views/Register/Register';
+import NotMatch from './NotMatch';
+import AboutUs from './Views/AboutUS/AboutUs';
 
 class App extends Component {
     render() {
@@ -28,6 +29,7 @@ class App extends Component {
                         </Switch>
                     </Router>
                 </Layout>
+                <Footer />
             </React.Fragment>
         )
     }
