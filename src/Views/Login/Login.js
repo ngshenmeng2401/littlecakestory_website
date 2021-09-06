@@ -2,6 +2,7 @@ import React from 'react';
 import { LoginForm } from './style';
 import { Form, Button, Col, Row} from 'react-bootstrap';
 import LoginImage from '../../assets/loginimg.jpg';
+import PropTypes from 'prop-types';
 
 const Login = () => {
     return (
@@ -11,6 +12,7 @@ const Login = () => {
                     <img src={LoginImage} className="loginimg" alt="image" />
                 </Col>
                 <Col className="padding">
+                    <h3>Login</h3>
                     <Form>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>

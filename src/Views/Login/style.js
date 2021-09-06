@@ -8,11 +8,10 @@ export const LoginForm = styled.div`
     .loginimg{
 
         width: 660px;
-        height: 250;
     }
 
     .padding{
-        padding-top: 100px;
+        padding-top: 80px;
     }
 
     .forgetbtn{
